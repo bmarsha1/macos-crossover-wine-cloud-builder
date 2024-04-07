@@ -33,7 +33,7 @@ runs:
       shell: bash
       run: |
         brew install  glslang   \
-                      mingw-w64 \
+                      mingw-w64@9 \
                       meson
         python3 -m pip install --upgrade setuptools
 
