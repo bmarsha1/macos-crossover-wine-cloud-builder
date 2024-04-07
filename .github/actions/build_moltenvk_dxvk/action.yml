@@ -29,7 +29,7 @@ runs:
       run: |
         pushd ${{ inputs.crossover-source }}/moltenvk
         brew update
-        python-setuptools
+        brew install python-setuptools
         ./fetchDependencies --macos
         make macos
         popd
