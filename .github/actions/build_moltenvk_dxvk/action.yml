@@ -34,8 +34,8 @@ runs:
       run: |
         brew install  glslang   \
                       mingw-w64 \
-                      meson     \
-                      python-setuptools
+                      meson
+        python3 -m pip install --upgrade setuptools
 
     ############ Build and Install MoltenVK ##############
     - name: Build MoltenVK
