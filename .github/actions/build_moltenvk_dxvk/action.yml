@@ -32,8 +32,8 @@ runs:
     - name: Install Dependencies for DXVK
       shell: bash
       run: |
-        brew install  glslang                 \
-                      gcenx/wine/mingw-w64@9  \
+        brew install  glslang      \
+                      mingw-w64    \
                       meson
         python3 -m pip install --upgrade setuptools
 
