@@ -1,0 +1,6 @@
+diff --color -bur --no-dereference moltenvk_old/ExternalRevisions/glslang_repo_revision moltenvk/ExternalRevisions/glslang_repo_revision
+--- moltenvk_old/ExternalRevisions/glslang_repo_revision	2024-07-04 22:58:17.786887900 -0400
++++ moltenvk/ExternalRevisions/glslang_repo_revision	2024-07-04 22:58:42.397007463 -0400
+@@ -1 +1 @@
+-e56beaee736863ce48455955158f1839e6e4c1a1
++f102d0f4fa170ae12a891a532341834a61b919b5
