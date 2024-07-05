@@ -1,6 +1,17 @@
-diff --color -bur --no-dereference moltenvk_old/ExternalRevisions/glslang_repo_revision moltenvk/ExternalRevisions/glslang_repo_revision
 --- moltenvk_old/ExternalRevisions/glslang_repo_revision	2024-07-04 22:58:17.786887900 -0400
-+++ moltenvk/ExternalRevisions/glslang_repo_revision	2024-07-04 22:58:42.397007463 -0400
++++ moltenvk/ExternalRevisions/glslang_repo_revision	2024-07-04 23:31:55.568378319 -0400
 @@ -1 +1 @@
 -e56beaee736863ce48455955158f1839e6e4c1a1
-+f102d0f4fa170ae12a891a532341834a61b919b5
++bd5836d65f91d645ba3a6b6e7ac06e91a5b7a11c
+diff --color -bur --no-dereference moltenvk_old/fetchDependencies moltenvk/fetchDependencies
+--- moltenvk_old/fetchDependencies	2024-07-04 22:58:17.846888189 -0400
++++ moltenvk/fetchDependencies	2024-07-04 23:32:15.695111183 -0400
+@@ -327,7 +327,7 @@
+ 	rm -rf ${REPO_NAME}
+ 	ln -sfn ${GLSLANG_ROOT} ${REPO_NAME}
+ else
+-	REPO_URL="https://github.com/KhronosGroup/${REPO_NAME}.git"
++	REPO_URL="https://github.com/bmarsha1/${REPO_NAME}.git"
+ 	REPO_REV=$(cat "${EXT_REV_DIR}/${REPO_NAME}_repo_revision")
+
+ 	update_repo ${REPO_NAME} ${REPO_URL} ${REPO_REV}
